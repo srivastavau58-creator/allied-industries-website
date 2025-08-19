@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allied Industries - Precision Rivets & Contact Solutions for Modern Manufacturing</title>
+    <meta name="description" content="Allied Industries - Leading manufacturer of precision rivets, contact rivets, and custom fastening solutions for automotive, industrial, and heavy equipment OEMs. ISO 9001 certified with 27+ years of expertise.">
+    <meta name="keywords" content="rivets, contact rivets, bimetal rivets, trimetal rivets, manufacturing, automotive, industrial, precision engineering">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Allied Industries - Precision Rivets & Manufacturing Solutions">
+    <meta property="og:description" content="27+ years of expertise in precision rivet manufacturing for automotive, industrial, and heavy equipment applications.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%231e3a8a'/%3E%3Ctext x='50' y='60' text-anchor='middle' fill='white' font-size='36' font-weight='bold'%3EA%3C/text%3E%3C/svg%3E">
+    
+    <!-- CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+        }
+        
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .section-padding {
+            padding: 5rem 0;
+        }
+        
+        .text-gradient {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+        
+        .stats-counter {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+        
+        .floating-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .navbar-sticky {
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .form-focus:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .section-padding {
+                padding: 3rem 0;
+            }
+            
+            .stats-counter {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-white/90 navbar-sticky border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="w-10 h-10 bg-blue-800 rounded-lg flex items-center justify-center mr-3">
+                            <span class="text-white font-bold text-lg">A</span>
+                        </div>
+                        <span class="text-xl font-bold text-gray-900">Allied Industries</span>
+                    </div>
+                </div>
+                
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition">Home</a>
+                        <a href="#capabilities" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition">Capabilities</a>
+                        <a href="#products" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition">Products</a>
+                        <a href="#quality" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition">Quality</a>
+                        <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition">About</a>
+                        <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="hidden md:block">
+                    <a href="#rfq" class="btn-primary text-white px-6 py-2 rounded-lg text-sm font-medium">
+                        Request Quote
+                    </a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-blue-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#capabilities" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Capabilities</a>
+                <a href="#products" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Products</a>
+                <a href="#quality" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Quality</a>
+                <a href="#about" class="block px-3 py-2 text-gray-700 hover:text-blue-600">About</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Contact</a>
+                <a href="#rfq" class="block px-3 py-2 bg-blue-600 text-white rounded-lg mx-3 text-center">Request Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white section-padding pt-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+                        Precision Rivets & Contact Solutions for 
+                        <span class="text-blue-300">Modern Manufacturing</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl mb-8 text-blue-100">
+                        27+ years of engineering excellence in rivets, contact rivets, and custom fastening solutions for automotive, industrial, and heavy equipment OEMs.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <a href="#rfq" class="bg-white text-blue-800 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition text-center">
+                            <i class="fas fa-file-alt mr-2"></i>Request Quote
+                        </a>
+                        <a href="#contact" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-800 transition text-center">
+                            <i class="fas fa-industry mr-2"></i>Book Plant Visit
+                        </a>
+                        <a href="#products" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-800 transition text-center">
+                            <i class="fas fa-download mr-2"></i>Download Catalog
+                        </a>
+                    </div>
+                    
+                    <!-- Trust Indicators -->
+                    <div class="grid grid-cols-3 gap-6 pt-8 border-t border-blue-700">
+                        <div class="text-center">
+                            <div class="stats-counter text-blue-300">27+</div>
+                            <div class="text-blue-200">Years Experience</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="stats-counter text-blue-300">10K+</div>
+                            <div class="text-blue-200">Components/Month</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="stats-counter text-blue-300">ISO</div>
+                            <div class="text-blue-200">9001 Certified</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fade-in floating-animation">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="bg-white/20 rounded-lg p-6 text-center">
+                                <i class="fas fa-cog text-4xl text-blue-300 mb-4"></i>
+                                <h3 class="font-semibold mb-2">Precision Engineering</h3>
+                                <p class="text-sm text-blue-200">±0.001" tolerance capabilities</p>
+                            </div>
+                            <div class="bg-white/20 rounded-lg p-6 text-center">
+                                <i class="fas fa-certificate text-4xl text-blue-300 mb-4"></i>
+                                <h3 class="font-semibold mb-2">Quality Certified</h3>
+                                <p class="text-sm text-blue-200">ISO 9001:2015 compliant</p>
+                            </div>
+                            <div class="bg-white/20 rounded-lg p-6 text-center">
+                                <i class="fas fa-truck text-4xl text-blue-300 mb-4"></i>
+                                <h3 class="font-semibold mb-2">Fast Delivery</h3>
+                                <p class="text-sm text-blue-200">On-time delivery guarantee</p>
+                            </div>
+                            <div class="bg-white/20 rounded-lg p-6 text-center">
+                                <i class="fas fa-handshake text-4xl text-blue-300 mb-4"></i>
+                                <h3 class="font-semibold mb-2">Custom Solutions</h3>
+                                <p class="text-sm text-blue-200">Tailored to your specs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Served -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Industries We Serve</h2>
+                <p class="text-xl text-gray-600">Trusted by leading OEMs across critical industries</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center fade-in card-hover p-6 rounded-lg">
+                    <i class="fas fa-car text-5xl text-blue-600 mb-4"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">Automotive</h3>
+                    <p class="text-sm text-gray-600">Electrical systems, wiring harnesses, switch assemblies</p>
+                </div>
+                <div class="text-center fade-in card-hover p-6 rounded-lg">
+                    <i class="fas fa-industry text-5xl text-blue-600 mb-4"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">Industrial Equipment</h3>
+                    <p class="text-sm text-gray-600">Heavy machinery, control panels, automation systems</p>
+                </div>
+                <div class="text-center fade-in card-hover p-6 rounded-lg">
+                    <i class="fas fa-bolt text-5xl text-blue-600 mb-4"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">Energy</h3>
+                    <p class="text-sm text-gray-600">Power distribution, renewable energy applications</p>
+                </div>
+                <div class="text-center fade-in card-hover p-6 rounded-lg">
+                    <i class="fas fa-microchip text-5xl text-blue-600 mb-4"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">Electronics</h3>
+                    <p class="text-sm text-gray-600">Circuit breakers, relays, contact assemblies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section id="capabilities" class="section-padding bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Manufacturing Capabilities</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Advanced manufacturing processes backed by precision equipment and rigorous quality control
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- CNC Machining -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover fade-in">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-cogs text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">CNC Machining</h3>
+                    <p class="text-gray-600 mb-4">Precision machining with tolerances up to ±0.001" using state-of-the-art CNC turning and milling centers.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Multi-axis turning centers</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>High-speed machining</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Complex geometries</li>
+                    </ul>
+                </div>
+                
+                <!-- Cold Heading -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover fade-in">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-hammer text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Cold Heading</h3>
+                    <p class="text-gray-600 mb-4">High-volume cold forming processes for consistent, high-strength rivet production with superior surface finish.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Progressive forming</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Work hardening control</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>High production rates</li>
+                    </ul>
+                </div>
+                
+                <!-- Material Processing -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover fade-in">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-atom text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Material Processing</h3>
+                    <p class="text-gray-600 mb-4">Expertise in processing diverse materials including precious metals, alloys, and composite materials.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>ETP Copper</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Silver alloys (AgCdO, AgNi)</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Composite layering</li>
+                    </ul>
+                </div>
+                
+                <!-- Quality Testing -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover fade-in">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-microscope text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Quality Testing</h3>
+                    <p class="text-gray-600 mb-4">Comprehensive testing and inspection using advanced metrology equipment and certified processes.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>CMM inspection</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Hardness testing</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Statistical process control</li>
+                    </ul>
+                </div>
+                
+                <!-- Custom Engineering -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover fade-in">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-drafting-compass text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Custom Engineering</h3>
+                    <p class="text-gray-600 mb-4">Design and development of custom fastening solutions tailored to specific application requirements.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Application analysis</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Prototype development</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Performance validation</li>
+                    </ul>
+                </div>
+                
+                <!-- Assembly Services -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover fade-in">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-tools text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Assembly Services</h3>
+                    <p class="text-gray-600 mb-4">Complete assembly and sub-assembly services with comprehensive testing and quality verification.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Sub-assembly integration</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Functional testing</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Quality documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section-padding bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Product Portfolio</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive range of precision rivets and contact solutions engineered for demanding applications
+                </p>
+            </div>
+            
+            <!-- Product Categories -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <!-- Contact Rivets -->
+                <div class="fade-in">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Contact Rivets</h3>
+                        <p class="text-gray-600 mb-6">
+                            Specialized electrical contact rivets designed for optimal conductivity and durability in switching applications.
+                        </p>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-white rounded-lg p-4 shadow-sm">
+                                <h4 class="font-semibold text-gray-900 mb-2">Bimetal Contact Rivets</h4>
+                                <p class="text-sm text-gray-600 mb-2">Contact layer typically half the thickness of the head, customizable to specific requirements.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">AgCdO</span>
+                                    <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">AgNi</span>
+                                    <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">AgSnO</span>
+                                    <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">Ag999</span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4 shadow-sm">
+                                <h4 class="font-semibold text-gray-900 mb-2">Trimetal Contact Rivets</h4>
+                                <p class="text-sm text-gray-600 mb-2">Economical alternative to solid silver contacts without compromising quality.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded">AgCdO/Cu</span>
+                                    <span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded">AgNi/Cu</span>
+                                    <span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded">Ag999/Cu</span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4 shadow-sm">
+                                <h4 class="font-semibold text-gray-900 mb-2">Weldable Button Contact Rivets</h4>
+                                <p class="text-sm text-gray-600">Projection weldable contacts with AgCdO/AgNi on various base materials.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Metal Rivets -->
+                <div class="fade-in">
+                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Metal Rivets</h3>
+                        <p class="text-gray-600 mb-6">
+                            Precision-engineered metal rivets for structural and mechanical fastening applications across industries.
+                        </p>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-white rounded-lg p-4 shadow-sm">
+                                <h4 class="font-semibold text-gray-900 mb-2">Semi Tubular Rivets</h4>
+                                <p class="text-sm text-gray-600 mb-2">Manufactured with precision and accuracy in various materials.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded">ETP Copper</span>
+                                    <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded">Silver Alloys</span>
+                                    <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded">Mild Steel</span>
+                                    <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded">Aluminum</span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4 shadow-sm">
+                                <h4 class="font-semibold text-gray-900 mb-2">Straight Head Rivets</h4>
+                                <p class="text-sm text-gray-600">Maximum contact area design, ideal for wiring harness applications.</p>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4 shadow-sm">
+                                <h4 class="font-semibold text-gray-900 mb-2">Double Head & Shank Rivets</h4>
+                                <p class="text-sm text-gray-600">Custom manufactured to very close tolerances per customer drawings.</p>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4 shadow-sm">
+                                <h4 class="font-semibold text-gray-900 mb-2">Formed & Trimmed Rivets</h4>
+                                <p class="text-sm text-gray-600">Specialized for non-round head shapes with precision tolerances.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technical Specifications -->
+            <div class="bg-gray-900 rounded-2xl p-8 text-white fade-in">
+                <h3 class="text-2xl font-bold mb-6 text-center">Technical Specifications</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <i class="fas fa-ruler-combined text-3xl text-blue-400 mb-4"></i>
+                        <h4 class="font-semibold mb-2">Dimensional Accuracy</h4>
+                        <p class="text-gray-300">Tolerances: ±0.001" to ±0.005"</p>
+                        <p class="text-gray-300">Diameter: 0.5mm to 25mm</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-shield-alt text-3xl text-blue-400 mb-4"></i>
+                        <h4 class="font-semibold mb-2">Material Properties</h4>
+                        <p class="text-gray-300">Hardness: 15-45 HRC</p>
+                        <p class="text-gray-300">Tensile: Up to 650 MPa</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-temperature-high text-3xl text-blue-400 mb-4"></i>
+                        <h4 class="font-semibold mb-2">Operating Conditions</h4>
+                        <p class="text-gray-300">Temperature: -40°C to +200°C</p>
+                        <p class="text-gray-300">Current: Up to 50A</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality & Certifications -->
+    <section id="quality" class="section-padding bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Quality & Certifications</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Commitment to excellence through rigorous quality management and continuous improvement
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Quality Standards -->
+                <div class="fade-in">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Quality Management System</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-certificate text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">ISO 9001:2015 Certified</h4>
+                                <p class="text-gray-600">Comprehensive quality management system ensuring consistent product quality and customer satisfaction.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-chart-line text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Statistical Process Control</h4>
+                                <p class="text-gray-600">Real-time monitoring and control of manufacturing processes to ensure consistent quality output.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-clipboard-check text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">PPAP Compliance</h4>
+                                <p class="text-gray-600">Production Part Approval Process compliance for automotive and critical applications.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-search text-orange-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">100% Inspection</h4>
+                                <p class="text-gray-600">Complete dimensional and functional testing of all critical components before dispatch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testing Equipment -->
+                <div class="fade-in">
+                    <div class="bg-white rounded-2xl shadow-lg p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Testing & Measurement Equipment</h3>
+                        
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-blue-500 pl-4">
+                                <h4 class="font-semibold text-gray-900">CMM Machines</h4>
+                                <p class="text-gray-600">Zeiss Contura G2 - 3D coordinate measuring for complex geometries</p>
+                            </div>
+                            
+                            <div class="border-l-4 border-green-500 pl-4">
+                                <h4 class="font-semibold text-gray-900">Hardness Testing</h4>
+                                <p class="text-gray-600">Rockwell, Vickers, and Brinell hardness testing capabilities</p>
+                            </div>
+                            
+                            <div class="border-l-4 border-purple-500 pl-4">
+                                <h4 class="font-semibold text-gray-900">Material Analysis</h4>
+                                <p class="text-gray-600">Spectrometer for material composition verification</p>
+                            </div>
+                            
+                            <div class="border-l-4 border-orange-500 pl-4">
+                                <h4 class="font-semibold text-gray-900">Surface Inspection</h4>
+                                <p class="text-gray-600">Optical measuring systems for surface quality assessment</p>
+                            </div>
+                            
+                            <div class="border-l-4 border-red-500 pl-4">
+                                <h4 class="font-semibold text-gray-900">Electrical Testing</h4>
+                                <p class="text-gray-600">Contact resistance and conductivity testing for electrical components</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 p-4 bg-blue-50 rounded-lg">
+                            <h4 class="font-semibold text-blue-900 mb-2">Quality Policy</h4>
+                            <p class="text-blue-800 text-sm">
+                                "We are committed to delivering products of the highest quality that meet or exceed customer expectations 
+                                through continuous improvement of our processes, systems, and capabilities."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plant & Machinery -->
+    <section class="section-padding bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Plant & Machinery</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    State-of-the-art manufacturing facility equipped with precision machinery and modern production systems
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- CNC Turning Centers -->
+                <div class="bg-gray-50 rounded-xl p-6 fade-in">
+                    <i class="fas fa-cog text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">CNC Turning Centers</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• DMG Mori NLX 2500/700</li>
+                        <li>• Mazak Quick Turn Nexus 200-II</li>
+                        <li>• Okuma Crown 762S</li>
+                        <li>• Max diameter: 65mm</li>
+                        <li>• Accuracy: ±0.001"</li>
+                    </ul>
+                </div>
+                
+                <!-- Cold Heading Machines -->
+                <div class="bg-gray-50 rounded-xl p-6 fade-in">
+                    <i class="fas fa-hammer text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Cold Heading Machines</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• Sakamura NCS-207F</li>
+                        <li>• Hatebur AMP 20</li>
+                        <li>• Nedschroef 1-6-50</li>
+                        <li>• Capacity: 0.5-20mm</li>
+                        <li>• Speed: 300 pcs/min</li>
+                    </ul>
+                </div>
+                
+                <!-- Wire Drawing -->
+                <div class="bg-gray-50 rounded-xl p-6 fade-in">
+                    <i class="fas fa-long-arrow-alt-right text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Wire Drawing Lines</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• Multi-pass wire drawing</li>
+                        <li>• Material: Cu, Al, Steel</li>
+                        <li>• Diameter: 0.5-25mm</li>
+                        <li>• Annealing furnaces</li>
+                        <li>• Surface treatment</li>
+                    </ul>
+                </div>
+                
+                <!-- Trimming & Forming -->
+                <div class="bg-gray-50 rounded-xl p-6 fade-in">
+                    <i class="fas fa-cut text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Trimming & Forming</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• Progressive die stamping</li>
+                        <li>• Custom forming dies</li>
+                        <li>• Precision trimming</li>
+                        <li>• Special geometries</li>
+                        <li>• Tool & die making</li>
+                    </ul>
+                </div>
+                
+                <!-- Assembly Systems -->
+                <div class="bg-gray-50 rounded-xl p-6 fade-in">
+                    <i class="fas fa-puzzle-piece text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Assembly Systems</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• Automated assembly lines</li>
+                        <li>• Vision inspection systems</li>
+                        <li>• Force monitoring</li>
+                        <li>• Packaging automation</li>
+                        <li>• Traceability systems</li>
+                    </ul>
+                </div>
+                
+                <!-- Quality Control -->
+                <div class="bg-gray-50 rounded-xl p-6 fade-in">
+                    <i class="fas fa-microscope text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Quality Control Lab</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• CMM machines</li>
+                        <li>• Optical comparators</li>
+                        <li>• Hardness testers</li>
+                        <li>• Material spectrometer</li>
+                        <li>• Environmental chamber</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Production Capacity -->
+            <div class="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white fade-in">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold mb-2">Production Capacity</h3>
+                    <p class="text-blue-200">Monthly production capabilities across product lines</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                    <div>
+                        <div class="text-3xl font-bold text-blue-200 mb-2">10,000+</div>
+                        <div class="text-blue-100">Contact Rivets/Month</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-blue-200 mb-2">25,000+</div>
+                        <div class="text-blue-100">Metal Rivets/Month</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-blue-200 mb-2">5,000+</div>
+                        <div class="text-blue-100">Custom Components/Month</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-blue-200 mb-2">99.8%</div>
+                        <div class="text-blue-100">On-Time Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">About Allied Industries</h2>
+                    <p class="text-xl text-gray-600 mb-6">
+                        Established in 1998, Allied Industries has grown from a small precision manufacturing shop to a leading supplier of rivets and contact solutions for critical applications across industries.
+                    </p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start">
+                            <i class="fas fa-calendar-alt text-blue-600 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Founded in 1998</h4>
+                                <p class="text-gray-600">Over 27 years of engineering excellence and continuous innovation</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-600 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Headquarters: Delhi, India</h4>
+                                <p class="text-gray-600">Strategically located for serving domestic and international markets</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i class="fas fa-users text-blue-600 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Expert Team</h4>
+                                <p class="text-gray-600">Skilled engineers, technicians, and quality professionals dedicated to excellence</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center p-4 bg-white rounded-lg shadow-sm">
+                            <div class="text-2xl font-bold text-blue-600 mb-1">27+</div>
+                            <div class="text-gray-600 text-sm">Years Experience</div>
+                        </div>
+                        <div class="text-center p-4 bg-white rounded-lg shadow-sm">
+                            <div class="text-2xl font-bold text-blue-600 mb-1">50+</div>
+                            <div class="text-gray-600 text-sm">Client Partners</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <div class="bg-white rounded-2xl shadow-lg p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Our Mission & Values</h3>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2 flex items-center">
+                                    <i class="fas fa-bullseye text-blue-600 mr-2"></i>Mission
+                                </h4>
+                                <p class="text-gray-600 pl-6">
+                                    To be the preferred partner for precision fastening solutions by delivering exceptional quality, 
+                                    innovation, and service that exceed customer expectations.
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-3 flex items-center">
+                                    <i class="fas fa-heart text-blue-600 mr-2"></i>Core Values
+                                </h4>
+                                <div class="pl-6 space-y-3">
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <div>
+                                            <h5 class="font-medium text-gray-900">Quality First</h5>
+                                            <p class="text-sm text-gray-600">Uncompromising commitment to product quality and customer satisfaction</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <div>
+                                            <h5 class="font-medium text-gray-900">Innovation</h5>
+                                            <p class="text-sm text-gray-600">Continuous improvement in processes, technology, and solutions</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <div>
+                                            <h5 class="font-medium text-gray-900">Reliability</h5>
+                                            <p class="text-sm text-gray-600">Dependable delivery and consistent performance in all engagements</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <div>
+                                            <h5 class="font-medium text-gray-900">Partnership</h5>
+                                            <p class="text-sm text-gray-600">Building long-term relationships based on trust and mutual success</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RFQ Section -->
+    <section id="rfq" class="section-padding bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 fade-in">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Request for Quote</h2>
+                <p class="text-xl text-gray-600">
+                    Get a detailed quote for your precision rivet and fastening requirements
+                </p>
+            </div>
+            
+            <div class="bg-gray-50 rounded-2xl p-8 fade-in">
+                <form id="rfq-form" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Company Name *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Contact Person *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+                            <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
+                            <input type="tel" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Product Type *</label>
+                        <select required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                            <option value="">Select Product Type</option>
+                            <option value="bimetal-contact">Bimetal Contact Rivets</option>
+                            <option value="trimetal-contact">Trimetal Contact Rivets</option>
+                            <option value="weldable-button">Weldable Button Contact Rivets</option>
+                            <option value="semi-tubular">Semi Tubular Rivets</option>
+                            <option value="straight-head">Straight Head Rivets</option>
+                            <option value="double-head">Double Head & Shank Rivets</option>
+                            <option value="formed">Formed Rivets</option>
+                            <option value="copper">Copper Rivets</option>
+                            <option value="custom">Custom Solution</option>
+                        </select>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Material Requirements</label>
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                                <option value="">Select Material</option>
+                                <option value="etp-copper">ETP Copper</option>
+                                <option value="ag-cdo">Silver Alloy (AgCdO)</option>
+                                <option value="ag-ni">Silver Alloy (AgNi)</option>
+                                <option value="ag-sno">Silver Alloy (AgSnO)</option>
+                                <option value="ag-999">Pure Silver (Ag999)</option>
+                                <option value="mild-steel">Mild Steel</option>
+                                <option value="aluminum">Aluminum</option>
+                                <option value="other">Other (specify in notes)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Annual Volume</label>
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                                <option value="">Select Volume Range</option>
+                                <option value="1000-5000">1,000 - 5,000 pieces</option>
+                                <option value="5000-25000">5,000 - 25,000 pieces</option>
+                                <option value="25000-100000">25,000 - 100,000 pieces</option>
+                                <option value="100000+">100,000+ pieces</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Application/Industry</label>
+                        <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                            <option value="">Select Industry</option>
+                            <option value="automotive">Automotive</option>
+                            <option value="industrial-equipment">Industrial Equipment</option>
+                            <option value="energy">Energy & Power</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="aerospace">Aerospace</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Technical Drawings/Specifications</label>
+                        <div class="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
+                            <i class="fas fa-cloud-upload-alt text-3xl text-gray-400 mb-2"></i>
+                            <p class="text-gray-600 mb-2">Upload technical drawings (PDF, DWG, DXF, STEP)</p>
+                            <input type="file" multiple accept=".pdf,.dwg,.dxf,.step" class="hidden" id="file-upload">
+                            <label for="file-upload" class="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                                Choose Files
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Project Timeline</label>
+                        <input type="text" placeholder="e.g., Required by Q3 2024" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Additional Requirements/Notes</label>
+                        <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none form-focus" placeholder="Please specify any special requirements, tolerances, certifications needed, etc."></textarea>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <input type="checkbox" id="nda" class="mr-2">
+                        <label for="nda" class="text-sm text-gray-700">I agree to the Non-Disclosure Agreement (NDA) for proprietary information</label>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button type="submit" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold text-lg">
+                            <i class="fas fa-paper-plane mr-2"></i>Submit RFQ
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Alternative Contact Methods -->
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 fade-in">
+                <div class="text-center p-6 bg-blue-50 rounded-lg">
+                    <i class="fas fa-phone text-2xl text-blue-600 mb-3"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">Call Us</h3>
+                    <p class="text-gray-600">+91-11-XXXX-XXXX</p>
+                    <p class="text-sm text-gray-500">Mon-Fri, 9AM-6PM IST</p>
+                </div>
+                
+                <div class="text-center p-6 bg-green-50 rounded-lg">
+                    <i class="fas fa-envelope text-2xl text-green-600 mb-3"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">Email Us</h3>
+                    <p class="text-gray-600"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3340525f564073525f5f5a56575a5d57464047415a56401d5a5d">[email&#160;protected]</a></p>
+                    <p class="text-sm text-gray-500">Response within 24 hours</p>
+                </div>
+                
+                <div class="text-center p-6 bg-purple-50 rounded-lg">
+                    <i class="fab fa-whatsapp text-2xl text-green-500 mb-3"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">WhatsApp</h3>
+                    <p class="text-gray-600">+91-XXXXX-XXXXX</p>
+                    <p class="text-sm text-gray-500">Quick technical queries</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold mb-4">Contact Allied Industries</h2>
+                <p class="text-xl text-gray-300">
+                    Ready to discuss your precision fastening requirements? Get in touch with our expert team.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Information -->
+                <div class="fade-in">
+                    <h3 class="text-2xl font-bold mb-8">Get In Touch</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Head Office</h4>
+                                <p class="text-gray-300">
+                                    Allied Industries<br>
+                                    [Office Address]<br>
+                                    Delhi, India
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Phone</h4>
+                                <p class="text-gray-300">
+                                    Sales: +91-11-XXXX-XXXX<br>
+                                    Support: +91-11-XXXX-XXXX
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Email</h4>
+                                <p class="text-gray-300">
+                                    Sales: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a3d0c2cfc6d0e3c2cfcfcac6c7cacdc7d6d0d7d1cac6d08dcacd">[email&#160;protected]</a><br>
+                                    Support: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="473432373728353307262b2b2e22232e2923323433352e2234692e29">[email&#160;protected]</a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Business Hours</h4>
+                                <p class="text-gray-300">
+                                    Monday - Friday: 9:00 AM - 6:00 PM IST<br>
+                                    Saturday: 9:00 AM - 1:00 PM IST
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Plant Visit -->
+                    <div class="mt-8 p-6 bg-gray-800 rounded-lg">
+                        <h4 class="font-semibold mb-3 flex items-center">
+                            <i class="fas fa-industry text-blue-400 mr-2"></i>
+                            Schedule a Plant Visit
+                        </h4>
+                        <p class="text-gray-300 mb-4">
+                            See our manufacturing capabilities firsthand. Book a guided tour of our facility.
+                        </p>
+                        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+                            Book Plant Visit
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Quick Contact Form -->
+                <div class="fade-in">
+                    <div class="bg-gray-800 rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold mb-6">Send us a Message</h3>
+                        
+                        <form class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-300 mb-2">Name *</label>
+                                    <input type="text" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 text-white">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-300 mb-2">Company</label>
+                                    <input type="text" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 text-white">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Email *</label>
+                                <input type="email" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 text-white">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Subject</label>
+                                <select class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 text-white">
+                                    <option value="">Select Subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="technical">Technical Support</option>
+                                    <option value="quote">Request Quote</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="careers">Careers</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Message *</label>
+                                <textarea rows="4" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 text-white" placeholder="How can we help you?"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+                                <i class="fas fa-paper-plane mr-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
+                            <span class="text-white font-bold text-lg">A</span>
+                        </div>
+                        <span class="text-xl font-bold text-white">Allied Industries</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Leading manufacturer of precision rivets and contact solutions for modern manufacturing applications.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#about" class="hover:text-blue-400 transition">About Us</a></li>
+                        <li><a href="#capabilities" class="hover:text-blue-400 transition">Capabilities</a></li>
+                        <li><a href="#products" class="hover:text-blue-400 transition">Products</a></li>
+                        <li><a href="#quality" class="hover:text-blue-400 transition">Quality</a></li>
+                        <li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Products -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Products</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-400 transition">Contact Rivets</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">Metal Rivets</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">Custom Solutions</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">Assembly Services</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p><i class="fas fa-phone mr-2"></i>+91-11-XXXX-XXXX</p>
+                        <p><i class="fas fa-envelope mr-2"></i><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3241535e574172535e5e5b57565b5c56474146405b57411c5b5c">[email&#160;protected]</a></p>
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>Delhi, India</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Allied Industries. All rights reserved. | ISO 9001:2015 Certified</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                // Close mobile menu if open
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+            } else {
+                navbar.style.background = 'rgba(255, 255, 255, 0.9)';
+            }
+        });
+
+        // RFQ Form handling
+        document.getElementById('rfq-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic form validation
+            const requiredFields = this.querySelectorAll('[required]');
+            let isValid = true;
+            
+            requiredFields.forEach(field => {
+                if (!field.value.trim()) {
+                    isValid = false;
+                    field.style.borderColor = '#ef4444';
+                } else {
+                    field.style.borderColor = '#d1d5db';
+                }
+            });
+            
+            if (isValid) {
+                // Here you would typically send the form data to your server
+                alert('Thank you! Your RFQ has been submitted successfully. We will respond within 24 hours.');
+                this.reset();
+            } else {
+                alert('Please fill in all required fields.');
+            }
+        });
+
+        // File upload handling
+        document.getElementById('file-upload').addEventListener('change', function() {
+            const fileCount = this.files.length;
+            const label = this.nextElementSibling;
+            if (fileCount > 0) {
+                label.textContent = `${fileCount} file(s) selected`;
+                label.style.backgroundColor = '#059669';
+            }
+        });
+
+        // Counter animation for stats
+        function animateCounter(element, target, duration = 2000) {
+            let start = 0;
+            const increment = target / (duration / 16);
+            
+            function updateCounter() {
+                start += increment;
+                if (start < target) {
+                    element.textContent = Math.floor(start) + '+';
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.textContent = target + '+';
+                }
+            }
+            
+            updateCounter();
+        }
+
+        // Animate counters when they come into view
+        const counterObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const target = parseInt(counter.textContent);
+                    animateCounter(counter, target);
+                    counterObserver.unobserve(counter);
+                }
+            });
+        });
+
+        document.querySelectorAll('.stats-counter').forEach(counter => {
+            counterObserver.observe(counter);
+        });
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"971aeabd897159e7","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.8.0","token":"4edd5f8ec12a48cfa682ab8261b80a79"}' crossorigin="anonymous"></script>
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDsV7aHWXlGkGpX8IVRkepxthZwPAl8iv8PWKis8Saso0bXT48mN3xF%2Bs2GBC9xTenA6%2BstfpQpPHMWCzANzhuegSYdTVhH36z1E3iNZWWft%2BgFB5xRqhuA6hFgxQ3A6aQnkvqknTRp1lMRiXDYNPAOq9cp1c0E4zq6UXk2sfWn6exqKSpYHOuxJkTya5hgyRNRdDztRPCB9DZl5cUwgekW0cclUhnVMAK7xSlcDlQuygbpYXmp%2BhicEndEXrd3ndG%2FipCo77HD9%2Byu0%2B%2FnUtjPK9KjZaC7Td7B89eqr3RC%2Bmwy0dg4MNEHFvFYN5ba8nhDCStGXaakZ2slJA0K3PEyFwBqKN0KKRVa92oFMnPdPtSFiXduvrehJFu4nYoOzVW4xzm%2B4uxBPOu4G48R3A%2FQA1CvDCNmCOTJD8bNFe4JOgT%2Br57CrU6nZnbbsNPkQxI8OHJZm5TW9pbpexAYpmLkanl8S8ItF1uGqHCSwF7bFJ";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDsV7aHWXlGkGpX8IVRkepxthZwPAl8iv8PWKis8Saso0bXT48mN3xF+s2GBC9xTenA6+stfpQpPHMWCzANzhuegSYdTVhH36z1E3iNZWWft+gFB5xRqhuA6hFgxQ3A6aQnkvqknTRp1lMRiXDYNPAOq9cp1c0E4zq6UXk2sfWn6exqKSpYHOuxJkTya5hgyRNRdDztRPCB9DZl5cUwgekW0cclUhnVMAK7xSlcDlQuygbpYXmp+hicEndEXrd3ndG/ipCo77HD9+yu0+/nUtjPK9KjZaC7Td7B89eqr3RC+mwy0dg4MNEHFvFYN5ba8nhDCStGXaakZ2slJA0K3PEyFwBqKN0KKRVa92oFMnPdPtSFiXduvrehJFu4nYoOzVW4xzm+4uxBPOu4G48R3A/QA1CvDCNmCOTJD8bNFe4JOgT+r57CrU6nZnbbsNPkQxI8OHJZm5TW9pbpexAYpmLkanl8S8ItF1uGqHCSwF7bFJ";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
